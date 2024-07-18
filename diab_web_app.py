@@ -18,8 +18,8 @@ import streamlit as st
 from sklearn.preprocessing import StandardScaler
 
 # Load the model and scaler
-loaded_model = pickle.load(open('B:/ML/trained_model (2).sav', 'rb'))
-scaler = pickle.load(open('B:/ML/scaler.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model (2).sav', 'rb'))
+scaler = pickle.load(open('scaler.sav', 'rb'))
 
 # Streamlit title
 st.title('Diabetes Prediction using Machine Learning')
